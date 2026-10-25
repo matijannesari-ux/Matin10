@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>موتوشاپ | فروشگاه موتورسیکلت سنگین</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar container">
+      <div class="logo">موتو<span>شاپ</span></div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">خانه</a></li>
+        <li><a href="products.html">محصولات</a></li>
+        <li><a href="about.html">درباره ما</a></li>
+        <li><a href="contact.html">تماس با ما</a></li>
+      </ul>
+      <button class="menu-toggle" id="menuToggle">☰</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h1>قدرت را <span>حس کن</span></h1>
+      <p>بهترین موتورسیکلت‌های سنگین با گارانتی اصالت و بهترین قیمت بازار. سوار شو، تجربه کن!</p>
+      <a href="products.html" class="btn">مشاهده محصولات</a>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2 class="section-title">موتورهای <span>ویژه</span></h2>
+      <p class="section-sub">منتخب بهترین‌های موتوشاپ</p>
+      <div class="grid">
+        
+        <!-- محصول اول (Honda Repsol) -->
+        <div class="card">
+          <div class="card-img">
+            <img src="images/bike-1.jpg" alt="Honda Repsol">
+          </div>
+          <div class="card-body">
+            <h3>Honda CBR Repsol</h3>
+            <p>موتور اسپرت با طراحی مسابقه‌ای، قدرت فوق‌العاده</p>
+            <div class="price">۸۵۰,۰۰۰,۰۰۰ تومان</div>
+          </div>
+        </div>
+
+        <!-- محصول دوم (Suzuki Hayabusa) -->
+        <div class="card">
+          <div class="card-img">
+            <img src="images/bike-2.jpg" alt="Suzuki Hayabusa">
+          </div>
+          <div class="card-body">
+            <h3>Suzuki Hayabusa</h3>
+            <p>افسانه سرعت، موتور ۱۳۴۰ سی‌سی با شتاب باورنکردنی</p>
+            <div class="price">۱,۱۰۰,۰۰۰,۰۰۰ تومان</div>
+          </div>
+        </div>
+
+        <!-- محصول سوم (استفاده مجدد از عکس اول برای تکمیل گرید) -->
+        <div class="card">
+          <div class="card-img">
+            <img src="images/hero.jpg" alt="Honda CBR">
+          </div>
+          <div class="card-body">
+            <h3>Honda CBR1000RR</h3>
+            <p>تکنولوژی روز دنیا، طراحی آیرودینامیک و قدرتمند</p>
+            <div class="price">۹۲۰,۰۰۰,۰۰۰ تومان</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section style="background: var(--dark-2); text-align:center;">
+    <div class="container">
+      <h2 class="section-title">آماده <span>سوار شدن</span> هستی؟</h2>
+      <p class="section-sub">همین حالا با ما تماس بگیر</p>
+      <a href="contact.html" class="btn">تماس با ما</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 تمامی حقوق برای <span>موتوشاپ</span> محفوظ است.</p>
+    <p style="margin-top:10px;">طراحی شده توسط [نام شما] - پروژه کلاسی استاد قیصری</p>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('menuToggle');
+    const nav = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => nav.classList.toggle('open'));
+  </script>
+
+</body>
+</html>
